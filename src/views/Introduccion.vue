@@ -2,17 +2,19 @@
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    p.mb-4 El entendimiento del ser humano desde una perspectiva holística representa un desafío considerable, pues somos el resultado de diversas esferas: biológica, psicológica, química, neurológica, física y genética. En respuesta a esta complejidad surge la neuropsicología, una ciencia que busca integrar estas dimensiones para comprender quiénes somos y cómo se originan nuestras conductas.
-    
-    .row
-      .col-12.col-md-6.col-xl-4(data-aos="fade-right").bg-verde.p-4.mb-3.rounded.d-flex.align-items-center
-        p.my-auto En esta unidad, se espera que al finalizar el estudiante sea capaz de: comprender los principios fundamentales de la neuropsicología y sus aplicaciones en el aprendizaje, explicar su relevancia en el proceso de enseñanza-aprendizaje, y relacionar los conceptos de neuropsicología con ejemplos prácticos de aprendizaje.
-      .col-4.d-none.d-md-block(data-aos="fade-up").mb-3.rounded
-        img(src='@/assets/curso/unidad/img-1.png', alt='')
-      .col-12.col-md-6.col-xl-4(data-aos="fade-left").bg-rosa.p-4.mb-3.rounded.d-flex.align-items-center
-        p.my-auto La unidad se organiza en torno al tema principal Fundamentos de la Neuropsicología del Aprendizaje, dividido en tres subtemas principales: definición y principios de la neuropsicología, análisis del desarrollo cerebral y aprendizaje, y estructuras cerebrales involucradas en procesos de memoria, atención y aprendizaje.
+    .row.mb-4
+      .col-12.col-xl-8(data-aos="fade-right")
+        p.mb-4 La neuroplasticidad, definida como la capacidad del cerebro para reorganizarse y adaptarse a lo largo de la vida, es un concepto central para comprender el aprendizaje y el desarrollo cognitivo. Esta unidad explora cómo este fenómeno permite a los individuos aprender en diversos contextos, además de ofrecer estrategias para diseñar intervenciones educativas efectivas que respondan a las necesidades de cada estudiante.
+        .bg-rojo.p-4
+          span El enfoque de esta unidad se centrará en aplicar la neuroplasticidad en el diseño de intervenciones educativas, promoviendo el aprendizaje y desarrollo cognitivo en todas las etapas de la vida. Se proporcionarán herramientas para crear aulas inclusivas y estimulantes, atendiendo las diferencias individuales y potenciando el aprendizaje, particularmente en estudiantes con necesidades diversas.
+      .col-4.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
 
+    .row.mb-4
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-verde.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-2.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0 La estructura abarca tres áreas: los principios de la neuroplasticidad, su relación con el desarrollo cognitivo y sus implicaciones para la enseñanza. Este enfoque permitirá a los estudiantes adquirir habilidades prácticas y una comprensión integral del tema, preparándolos para enfrentar los desafíos educativos actuales de manera efectiva y profesional.
 
 
 </template>

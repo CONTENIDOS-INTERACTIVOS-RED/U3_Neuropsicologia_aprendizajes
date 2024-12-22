@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 El estudio de la neuropsicología y su relación con el aprendizaje ofrece al estudiante una comprensión integral de los principios neuropsicológicos que fundamentan el desarrollo cognitivo, emocional y social. A través de esta formación, se exploran temas como la definición y principios de la neuropsicología, el desarrollo cerebral en diferentes etapas del ciclo vital, y las estructuras cerebrales clave en procesos como memoria, atención y aprendizaje. 
+    p.mb-4.mb-md-5 La neuroplasticidad, definida como la capacidad del sistema nervioso para reorganizarse y adaptarse frente a experiencias, aprendizajes o lesiones, es fundamental para el desarrollo cognitivo en todas las etapas de la vida. Este proceso permite diseñar estrategias educativas adaptativas que consideran las individualidades de los estudiantes, fomentando un aprendizaje significativo y competencias diversas. Las intervenciones basadas en la neuroplasticidad no solo optimizan los resultados académicos, sino que también promueven el bienestar emocional y el desarrollo integral, asegurando un entorno inclusivo y adaptativo que potencia el crecimiento personal y cognitivo a lo largo del ciclo vital.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

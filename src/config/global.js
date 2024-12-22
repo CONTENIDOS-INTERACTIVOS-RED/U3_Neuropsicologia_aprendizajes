@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos de la neuropsicología del aprendizaje	',
+    numeroUnidad: '3',
+    tituloUnidad: 'Neuroplasticidad y aprendizaje',
   },
   menuPrincipal: {
     menu: [
@@ -31,31 +31,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición y principios de la neuropsicología',
+        titulo:
+          'Dislexia, disgrafía, discalculia y su relación con el desarrollo cerebral',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo:
+              'Neuroplasticidad y desarrollo cognitivo en diferentes etapas del ciclo vital.',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Desarrollo cerebral y aprendizaje',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Aprendizaje',
-            hash: 't_2_1',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
         titulo:
-          'Estructuras cerebrales involucradas en los procesos de memoria, atención y aprendizaje',
+          'Implicaciones de la neuroplasticidad para la enseñanza y la intervención educativa',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -94,163 +88,32 @@ export default {
       },
     ],
   },
-  referencias: [
-    {
-      referencia:
-        'Cao, G., & Duan, Y. (2018). The Impact of Big Data Analytics on Firm Performance: A Resource-Based View. Information & Management, 55(8), 1031-1043.',
-      link: '',
-    },
-    {
-      referencia:
-        'Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly, 36(4), 1165-1188.',
-      link: 'https://doi.org/10.2307/41703503',
-    },
-    {
-      referencia:
-        'Chen, M., Mao, S., & Liu, Y. (2014). Big Data: A Survey. Mobile Networks and Applications, 19(2), 171-209.',
-      link: '',
-    },
-    {
-      referencia:
-        'Gartner, Inc. (2020). Magic Quadrant for Analytics and Business Intelligence Platforms.',
-      link: '',
-    },
-    {
-      referencia:
-        'Han, J., Kamber, M., & Pei, J. (2011). Data mining: Concepts and techniques (3rd ed.). Morgan Kaufmann.',
-      link: '',
-    },
-    {
-      referencia:
-        'Inmon, W. H. (2005). Building the Data Warehouse. John Wiley & Sons.',
-      link: '',
-    },
-    {
-      referencia:
-        'Laursen, G. H., & Thorlund, J. (2010). Business Analytics for Managers: Taking Business Intelligence Beyond Reporting. Wiley.',
-      link: '',
-    },
-    {
-      referencia:
-        'Power, D. J. (2007). A Brief History of Decision Support Systems. Knowledge and Information Systems, 4(2), 103-106.',
-      link: '',
-    },
-    {
-      referencia:
-        'Russom, P. (2011). Big Data Analytics. TDWI Best Practices Report, 1-28.',
-      link: '',
-    },
-    {
-      referencia:
-        'Turban, E., Sharda, R., & Delen, D. (2011). Business Intelligence: A Managerial Approach. Pearson Prentice Hall.',
-      link: '',
-    },
-    {
-      referencia:
-        'Turban, E., Sharda, R., & Delen, D. (2011). Decision support and business intelligence systems (9th ed.). Pearson Education.',
-      link: '',
-    },
-  ],
+  referencias: [],
   glosario: [
     {
-      termino: 'BI (Business Intelligence)',
+      termino: 'Actividad física y neuroplasticidad',
       significado:
-        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
+        'Relación entre la actividad física regular y la mejora de la salud cerebral, que aumenta el flujo sanguíneo y la producción de factores de crecimiento, favoreciendo la adaptabilidad del cerebro.',
     },
     {
-      termino: 'Big Data',
+      termino: 'Desarrollo cerebral',
       significado:
-        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
+        'Proceso por el cual el cerebro se forma y madura a lo largo de la vida, influyendo en la capacidad cognitiva y emocional y mostrando altos niveles de plasticidad, especialmente en las etapas tempranas y media de la vida.',
     },
     {
-      termino: 'Cuadro de mando (Dashboard)',
+      termino: 'Educación inclusiva',
       significado:
-        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
+        'Enfoque educativo que integra y apoya a todos los estudiantes, incluyendo aquellos con discapacidades o dificultades de aprendizaje, aprovechando la neuroplasticidad para personalizar el aprendizaje.',
     },
     {
-      termino: 'Data Lake',
+      termino: 'Intervención educativa',
       significado:
-        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
+        'Estrategias y programas diseñados para ayudar a estudiantes en su aprendizaje, considerando la neuroplasticidad para adaptar métodos y enfoques que optimicen el proceso educativo.',
     },
     {
-      termino: 'Data Mart',
+      termino: 'Salud emocional',
       significado:
-        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
-    },
-    {
-      termino: 'Data Mining (Minería de Datos)',
-      significado:
-        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
-    },
-    {
-      termino: 'Data Warehouse (Almacén de Datos)',
-      significado:
-        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
-    },
-    {
-      termino: 'Dimensión',
-      significado:
-        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
-    },
-    {
-      termino: 'ETL (Extract, Transform, Load)',
-      significado:
-        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
-    },
-    {
-      termino: 'Indicador clave de desempeño (KPI)',
-      significado:
-        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
-    },
-    {
-      termino: 'Informes (Reports)',
-      significado:
-        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
-    },
-    {
-      termino: 'IoT (Internet of Things)',
-      significado:
-        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
-    },
-    {
-      termino: 'Machine learning (Aprendizaje Automático)',
-      significado:
-        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
-    },
-    {
-      termino: 'Metadatos',
-      significado:
-        'Datos que describen otros datos, como su origen, formato y características',
-    },
-    {
-      termino: 'OLAP (Online Analytical Processing)',
-      significado:
-        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
-    },
-    {
-      termino: 'Panel de control (Control Panel)',
-      significado:
-        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
-    },
-    {
-      termino: 'Predicción (Forecasting)',
-      significado:
-        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
-    },
-    {
-      termino: 'SQL (Structured Query Language)',
-      significado:
-        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
-    },
-    {
-      termino: 'Toma de decisiones basada en datos',
-      significado:
-        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
-    },
-    {
-      termino: 'Visualización de datos',
-      significado:
-        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
+        'Estado de bienestar en el que se manejan adecuadamente las emociones, lo que impacta positivamente en la capacidad de aprendizaje y en la neuroplasticidad.',
     },
   ],
   complementario: [

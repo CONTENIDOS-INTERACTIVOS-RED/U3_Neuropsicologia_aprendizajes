@@ -22,10 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La neuropsicología, como disciplina interdisciplinar, estudia la interacción entre cerebro, conducta y entorno, abordando funciones cognitivas como memoria, atención y aprendizaje. Destaca el papel de estructuras cerebrales como la corteza prefrontal, el hipocampo y los ganglios basales en procesos clave. La memoria se clasifica en sensorial, corto plazo y largo plazo, mientras que la atención incluye tipos como selectiva y sostenida. El aprendizaje se fundamenta en teorías como el condicionamiento clásico y el constructivismo. La plasticidad cerebral permite adaptar conexiones neuronales, subrayando la importancia de experiencias enriquecedoras para el desarrollo integral y continuo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Conocer el cerebro es descubrir el potencial infinito del ser humano para aprender, adaptarse y transformar su vida y su entorno.
-
+              p.descripcion.mb-4 La neuroplasticidad es la capacidad del cerebro para adaptarse mediante la reorganización de conexiones neuronales frente a nuevas experiencias, aprendizajes o lesiones. Incluye procesos como la formación de nuevas sinapsis, modificación de las existentes y, en ocasiones, regeneración neuronal. Este fenómeno es esencial para el aprendizaje, la memoria y la recuperación tras daños cerebrales. Factores clave como la práctica, la personalización del aprendizaje, un ambiente positivo y el uso de tecnología potencian esta capacidad. Su comprensión permite diseñar estrategias educativas y terapéuticas personalizadas, maximizando el desarrollo cognitivo y emocional en todas las etapas de la vida.
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto

@@ -1,1 +1,1 @@
-module.exports = 'unidad 1: Fundamentos de la neuropsicología del aprendizaje'
+module.exports = 'Unidad 3: Neuroplasticidad y aprendizaje'
