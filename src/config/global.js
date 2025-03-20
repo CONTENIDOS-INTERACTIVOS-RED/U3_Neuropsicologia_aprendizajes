@@ -31,8 +31,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Dislexia, disgrafía, discalculia y su relación con el desarrollo cerebral',
+        titulo: 'Definición y principios de la neuroplasticidad',
         desarrolloContenidos: true,
         subMenu: [
           {

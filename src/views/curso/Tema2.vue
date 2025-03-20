@@ -98,6 +98,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
@@ -108,6 +112,107 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Neuroplasticidad y Aprendizaje',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué área del cerebro se adapta mediante el aprendizaje y nuevas experiencias?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'El bulbo raquídeo.', esCorrecta: false },
+            { id: 'b', texto: 'El sistema límbico.', esCorrecta: false },
+            { id: 'c', texto: 'El córtex cerebral.', esCorrecta: true },
+            { id: 'd', texto: 'El cerebelo.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Qué factor no influye en la neuroplasticidad?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'La edad.', esCorrecta: false },
+            { id: 'b', texto: 'La dieta.', esCorrecta: false },
+            { id: 'c', texto: 'La falta de ejercicio.', esCorrecta: false },
+            { id: 'd', texto: 'La soledad.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Raúl ha llegado a su vejez y la neuroplasticidad le puede ofrecer el beneficio:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejora en el rendimiento físico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Oportunidades para mantener funciones cognitivas.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Disminución de la memoria.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Fomentar la regeneración de neuronas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Raúl para mejorar quiere estimular la neurplasticidad. Lo puede hacer a través de:',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Viendo televisión', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Escuchando cd sobre neuroplasticidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Actividades cognitivas desafiantes.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Jugando domino.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'La educación formal puede inducir cambios en la conectividad neuronal',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Dislexia, disgrafía, discalculia y su relación con el desarrollo cerebral'")
+  BannerInterno(:subTitulo="'1. Definición y principios de la neuroplasticidad'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-4
@@ -51,15 +51,15 @@
     #t_1_1.titulo-segundo
       div.d-flex
         span.me-3 1.1  
-        h2 3.2	Neuroplasticidad y desarrollo cognitivo en diferentes etapas del ciclo vital.
+        h2 Neuroplasticidad y desarrollo cognitivo en diferentes etapas del ciclo vital.
 
-    p.mb-4 Este enfoque puede ser fundamental en la elaboración de programas de intervención, permitiendo así crear estrategias personalizadas que maximicen el potencial de aprendizaje y recuperación. En definitiva, tener un profundo entendimiento del desarrollo cerebral y la neuroplasticidad no solo optimiza nuestras intervenciones, sino que también fomenta un enfoque más integrador y eficaz en la atención educativa y terapéutica.
+    p.mb-4 Es esencial comprender el desarrollo cerebral para implementar intervenciones de manera adecuada y oportuna. Este conocimiento no solo facilita la identificación de las etapas y mecanismos de desarrollo, sino que también permite apreciar cómo las distintas estructuras cerebrales se moldean en respuesta a la experiencia y el aprendizaje. La comprensión del concepto de neuroplasticidad es particularmente relevante en este contexto, ya que subraya la capacidad del cerebro para reorganizarse y adaptarse a nuevas situaciones.
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
         .d-flex.align-items-start.bg-amarillo.p-4.mb-4(data-aos="fade-right")
           img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-7.svg', alt='Texto que describa la imagen')
           .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Es esencial comprender el desarrollo cerebral para implementar intervenciones de manera adecuada y oportuna. Este conocimiento no solo facilita la identificación de las etapas y mecanismos de desarrollo, sino que también permite apreciar cómo las distintas estructuras cerebrales se moldean en respuesta a la experiencia y el aprendizaje. La comprensión del concepto de neuroplasticidad es particularmente relevante en este contexto, ya que subraya la capacidad del cerebro para reorganizarse y adaptarse a nuevas situaciones. 
+            p.pe-xl-3.mb-0(data-aos="fade-up") Este enfoque puede ser fundamental en la elaboración de programas de intervención, permitiendo así crear estrategias personalizadas que maximicen el potencial de aprendizaje y recuperación. En definitiva, tener un profundo entendimiento del desarrollo cerebral y la neuroplasticidad no solo optimiza nuestras intervenciones, sino que también fomenta un enfoque más integrador y eficaz en la atención educativa y terapéutica.
         p.mb-4 El desarrollo cerebral ocurre de cuatro maneras simultáneamente: de atrás hacia adelante, de adentro hacia afuera, de abajo hacia arriba y de derecha a izquierda. Se podría decir que el cerebro está compuesto por tres áreas principales: el bulbo raquídeo, el sistema límbico y el neocórtex (Stamm, J., 2018). 
 
         span.text-bold(data-aos="fade-up") En orden secuencial el desarrollo del cerebro ocurre de la siguiente manera:
